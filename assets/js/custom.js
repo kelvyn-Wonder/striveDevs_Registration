@@ -1,4 +1,28 @@
- 
+/*-----------------------------------------------------------------------------------
+
+    Template Name: sasnio
+
+    Note: This is Custom Js file
+
+-----------------------------------------------------------------------------------
+
+    [Table of contents]
+    
+    01. logodata
+    02. client-slider
+    03. services-slider
+    04. screenshots-slider
+    05. companie
+    06. mobile-nav
+    07. count
+    08. slider-for
+    09. accordion
+    10. progressbar
+    11. Navbar Menu
+    12. scrollTop
+
+-----------------------------------------------------------------------------------*/
+/*- 01. logodata -*/ 
 
 jQuery(document).ready(function($){
     if ( $.isFunction($.fn.owlCarousel) ) {

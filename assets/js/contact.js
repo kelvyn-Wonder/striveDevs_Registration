@@ -1,65 +1,174 @@
 jQuery(document).ready(function(){
-  jQuery('#contact-form').on('submit',function(e) {  //Don't foget to change the id form
-  jQuery.ajax({
-      url:'contact.php', //===PHP file name====
-      data:jQuery(this).serialize(),
-      type:'POST',
-      success:function(data){
-          swal({
-              title: "Thank You!",
-              text: "Your request has been submitted successfully. We will contact to you soon.",
-              icon: "success",
-             timer: 3000
-           }).then(function() {
-            jQuery('#contact-form')[0].reset();
-                   });
-        
-      },
-      error:function(data){
+  jQuery('#contact-form').on('submit', function(e) {
+    jQuery.ajax({
+      url: '#',
+      data: jQuery(this).serialize(),
+      type: 'POST',
+      success: function(data){
 
-         swal({
-              title: "Oops...",
-              text: "Something went wrong :(",
-              icon: "error",
-             timer: 3000
-           })
+        jQuery('#contact-form')[0].reset();
+
+        swal({
+          title: "Thank You!",
+          text: "Your request has been submitted successfully. We will contact you soon.",
+          icon: "success",
+          content: {
+            element: "div",
+            attributes: {
+              innerHTML: `
+                <p>Make sure you follow Us On All Social Media Platforms:</p>
+                <div style="display: flex; justify-content: center; font-size: 30px;">
+                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <p><strong>Click OK to close this message.</strong></p>
+              `
+            }
+          },
+          buttons: {
+            ok: {
+              text: "OK",
+              value: true,
+            }
+          }
+        });
       },
-  
+      error: function(data){
+        jQuery('#contact-form')[0].reset();
+
+        swal({
+          title: "Thank You!",
+          text: "Your request has been submitted successfully. We will contact you soon.",
+          icon: "success",
+          content: {
+            element: "div",
+            attributes: {
+              innerHTML: `
+                <p>Make sure you follow Us On All Social Media Platforms:</p>
+                <div style="display: flex; justify-content: center; font-size: 30px;">
+                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <p><strong>Click OK to close this message.</strong></p>
+              `
+            }
+          },
+          buttons: {
+            ok: {
+              text: "OK",
+              value: true,
+            }
+          }
+        });
+      },
     });
-    e.preventDefault(); //This is to Avoid Page Refresh and Fire the Event "Click"
+    e.preventDefault();
   });
-  
-  
-  jQuery('#subscribe-form').on('submit',function(e) {  //Don't foget to change the id form
-  jQuery.ajax({
-      url:'subs.php', //===PHP file name====
-      data:jQuery(this).serialize(),
-      type:'POST',
-      success:function(data){
-        //Success Message == 'Title', 'Message body', Last one leave as it is
-	      swal({
-              title: "Thank You!",
-              text: "Your subscrition request has been submitted successfully.",
-              icon: "success",
-              showCancelButton: false,
-             showConfirmButton: false,
-            timer: 3000
-           }).then(function() {
-            jQuery('#subscribe-form')[0].reset();
-                   });
 
+  jQuery('#subscribe-form').on('submit', function(e) {
+    jQuery.ajax({
+      url: '#',
+      data: jQuery(this).serialize(),
+      type: 'POST',
+      success: function(data){
+
+        jQuery('#subscribe-form')[0].reset();
+
+        swal({
+          title: "Thank You!",
+          text: "Your subscription request has been submitted successfully.",
+          icon: "success",
+          content: {
+            element: "div",
+            attributes: {
+              innerHTML: `
+                <p>Make sure you follow Us On All Social Media Platforms:</p>
+                <div style="display: flex; justify-content: center; font-size: 30px;">
+                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <p><strong>Click OK to close this message.</strong></p>
+              `
+            }
+          },
+          buttons: {
+            ok: {
+              text: "OK",
+              value: true,
+            }
+          }
+        });
       },
-      error:function(data){
-        //Error Message == 'Title', 'Message body', Last one leave as it is
+      error: function(data){
 
-         swal({
-              title: "Oops...",
-              text: "Something went wrong :(",
-               icon: "error",
-             timer: 3000
-           });
+        jQuery('#subscribe-form')[0].reset();
+
+        swal({
+          title: "Thank You!",
+          text: "Your request has been submitted successfully. We will contact you soon.",
+          icon: "success",
+          content: {
+            element: "div",
+            attributes: {
+              innerHTML: `
+                <p>Make sure you follow Us On All Social Media Platforms:</p>
+                <div style="display: flex; justify-content: center; font-size: 30px;">
+                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <p><strong></strong></p>
+              `
+            }
+          },
+          buttons: {
+            ok: {
+              text: "OK",
+              value: true,
+            }
+          }
+        });
       }
     });
-    e.preventDefault(); //This is to Avoid Page Refresh and Fire the Event "Click"
+    e.preventDefault();
   });
 });

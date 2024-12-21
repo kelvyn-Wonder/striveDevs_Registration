@@ -2141,29 +2141,7 @@ ul.features li.end {
     font-size: 16px;
     color: #000;
 }
-.willimes-marko {
-    display: flex;
-    position: relative;
-    align-items: center;
-    margin-top: 40px;
-    padding: 20px 30px;
-    position: relative;
-    border-radius: 22px;
-    width: 100%;
-    padding-right: 20px;
-    overflow: hidden;
-}
-.willimes-marko img {
-    border-radius: 50%;
-    margin-right: 30px;
-    border: 3px solid #fff;
-    position: relative;
-}
-.social-media-Intege h4 {
-    font-size: 26px;
-    font-weight: 700;
-    color: #fff;
-}
+
 .social-media-Intege {
     display: flex;
     align-items: center;

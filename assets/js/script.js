@@ -1,5 +1,3 @@
- 
-
 jQuery(document).ready(function($){
     if ( $.isFunction($.fn.owlCarousel) ) {
     $('.logodata').owlCarousel({

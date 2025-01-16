@@ -4463,9 +4463,9 @@ i#nav-icon4 {
     padding: 5px 0;
     position: relative;
 }
-.res-log img {
+/* .res-log img {
     width: auto;
-}
+} */
 .mobile-nav > ul > li.menu-item-has-children.active > ul.sub-menu li:before {
     content: "";
     width: 6px;
@@ -4482,9 +4482,9 @@ i#nav-icon4 {
     font-size: 20px;
     color: white;
 }
-.res-log {
+/* .res-log {
     margin-bottom: 30px;
-}
+} */
 .mobile-nav .donation {
     display: flex;
     align-items: center;

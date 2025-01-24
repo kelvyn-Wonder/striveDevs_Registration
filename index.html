@@ -26,6 +26,25 @@
    <link rel="stylesheet" href="assets/css/color.css">
    <script src="assets/js/jquery-3.6.0.min.js"></script>
    <script src="assets/js/preloader.js"></script>
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init(EsCxj7Ym2JMsGs6V3); // Replace with your EmailJS Public Key
+    })();
+
+    function sendEmail(event) {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+
+      emailjs.sendForm(service_in6yb9h, template_tzqp50j, event.target)
+        .then((result) => {
+          alert('Email sent successfully!');
+        }, (error) => {
+          alert('Failed to send email.');
+          console.error(error);
+        });
+    }
+  </script>
  </head>
 <body>
 <!-- loader -->
@@ -238,11 +257,11 @@
                     </ul>
             </div>
             <div class="col-lg-6">
-                <form class="content-form" role="form" id="contact-form" method="post"> 
-                    <input type="text" name="Complete Name" placeholder="Complete Name" required="">
-                    <input type="text" name="Email Address" placeholder="Email Address" required="">
-                    <input type="text" name="Phone No" placeholder="Active Phone No" required="">
-                    <textarea placeholder="Your Message" name="msg"></textarea>
+                <form class="content-form" role="form" id="contact-form" onsubmit="sendEmail(event)"> 
+                    <input type="text" name="name" placeholder="Complete Name" required="">
+                    <input type="text" name="email" placeholder="Email Address" required="">
+                    <input type="tel" name="tel" placeholder="Active Phone No" required="">
+                    <textarea placeholder="Your Message" name="message"></textarea>
                     <button type="submit" class="btn">Send Message</button>
                 </form>
             </div>

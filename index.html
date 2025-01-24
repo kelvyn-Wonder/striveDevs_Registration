@@ -29,7 +29,7 @@
    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
     (function() {
-      emailjs.init('EsCxj7Ym2JMsGs6V3'); // Replace with your EmailJS Public Key
+      emailjs.init('EsCxj7Ym2JMsGs6V3'); 
     })();
 
     function sendEmail(event) {
@@ -37,12 +37,8 @@
       const formData = new FormData(event.target);
 
       emailjs.sendForm('service_in6yb9h', 'template_tzqp50j', event.target)
-        .then((result) => {
-          alert('Email sent successfully!');
-        }, (error) => {
-          alert('Failed to send email.');
-          console.error(error);
-        });
+         
+        
     }
   </script>
  </head>

@@ -3428,7 +3428,22 @@ form.content-form input[type="text"] {
     outline: none;
     background-color: #fff;
 }
+form.content-form input[type="tel"] {
+    width: 100%;
+    border-radius: 52px;
+    height: 60px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #c1c1c1;
+    color: #555;
+    outline: none;
+    background-color: #fff;
+}
 form.content-form input[type="text"]::placeholder{
+    color: #555;
+}
+
+form.content-form input[type="tel"]::placeholder{
     color: #555;
 }
 form.content-form textarea {

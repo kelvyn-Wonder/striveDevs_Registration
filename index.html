@@ -29,14 +29,14 @@
    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
     (function() {
-      emailjs.init(EsCxj7Ym2JMsGs6V3); // Replace with your EmailJS Public Key
+      emailjs.init('EsCxj7Ym2JMsGs6V3'); // Replace with your EmailJS Public Key
     })();
 
     function sendEmail(event) {
       event.preventDefault();
       const formData = new FormData(event.target);
 
-      emailjs.sendForm(service_in6yb9h, template_tzqp50j, event.target)
+      emailjs.sendForm('service_in6yb9h', 'template_tzqp50j', event.target)
         .then((result) => {
           alert('Email sent successfully!');
         }, (error) => {
@@ -257,10 +257,10 @@
                     </ul>
             </div>
             <div class="col-lg-6">
-                <form class="content-form" role="form" id="contact-form" onsubmit="sendEmail(event)"> 
-                    <input type="text" name="name" placeholder="Complete Name" required="">
-                    <input type="text" name="email" placeholder="Email Address" required="">
-                    <input type="tel" name="tel" placeholder="Active Phone No" required="">
+                <form class="content-form" id="contact-form" onsubmit="sendEmail(event)"> 
+                    <input type="text" name="name" placeholder="Complete Name" required>
+                    <input type="text" name="email" placeholder="Email Address" required>
+                    <input type="tel" name="tel" placeholder="Active Phone No" required>
                     <textarea placeholder="Your Message" name="message"></textarea>
                     <button type="submit" class="btn">Send Message</button>
                 </form>

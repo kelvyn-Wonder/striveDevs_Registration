@@ -18,16 +18,16 @@ jQuery(document).ready(function(){
               innerHTML: `
                 <p>Make sure you follow Us On All Social Media Platforms:</p>
                 <div style="display: flex; justify-content: center; font-size: 30px;">
-                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
+                    <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                    <i class="fa-brands fa-tiktok"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
-                    <i class="fab fa-instagram"></i>
+                  <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fa-brands fa-youtube"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                  <a href="https://www.linkedin.com/company/strivedevsgh/" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
@@ -56,16 +56,16 @@ jQuery(document).ready(function(){
               innerHTML: `
                 <p>Make sure you follow Us On All Social Media Platforms:</p>
                 <div style="display: flex; justify-content: center; font-size: 30px;">
-                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
+                    <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                    <i class="fa-brands fa-tiktok"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
-                    <i class="fab fa-instagram"></i>
+                  <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fa-brands fa-youtube"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                  <a href="https://www.linkedin.com/company/strivedevsgh/" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
@@ -104,16 +104,16 @@ jQuery(document).ready(function(){
               innerHTML: `
                 <p>Make sure you follow Us On All Social Media Platforms:</p>
                 <div style="display: flex; justify-content: center; font-size: 30px;">
-                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
+                    <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                    <i class="fa-brands fa-tiktok"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
-                    <i class="fab fa-instagram"></i>
+                  <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fa-brands fa-youtube"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                  <a href="https://www.linkedin.com/company/strivedevsgh/" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
@@ -143,16 +143,16 @@ jQuery(document).ready(function(){
               innerHTML: `
                 <p>Make sure you follow Us On All Social Media Platforms:</p>
                 <div style="display: flex; justify-content: center; font-size: 30px;">
-                  <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: #3b5998;">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
+                    <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: #1da1f2;">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                    <i class="fa-brands fa-tiktok"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: #e4405f;">
-                    <i class="fab fa-instagram"></i>
+                  <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
+                    <i class="fa-brands fa-youtube"></i>
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
+                  <a href="https://www.linkedin.com/company/strivedevsgh/" target="_blank" style="margin: 0 10px; color:rgb(70, 127, 233);">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>

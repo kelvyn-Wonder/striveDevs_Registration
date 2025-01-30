@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
                   <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                  <a href="https://www.tiktok.com/@strivedev" target="_blank" style="margin: 0 10px; color: #000;">
                     <i class="fa-brands fa-tiktok"></i>
                   </a>
                   <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
@@ -59,7 +59,7 @@ jQuery(document).ready(function(){
                   <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                  <a href="https://www.tiktok.com/@strivedev" target="_blank" style="margin: 0 10px; color: #000;">
                     <i class="fa-brands fa-tiktok"></i>
                   </a>
                   <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
@@ -107,7 +107,7 @@ jQuery(document).ready(function(){
                   <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                  <a href="https://www.tiktok.com/@strivedev" target="_blank" style="margin: 0 10px; color: #000;">
                     <i class="fa-brands fa-tiktok"></i>
                   </a>
                   <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">
@@ -146,7 +146,7 @@ jQuery(document).ready(function(){
                   <a href="https://chat.whatsapp.com/EfZH0QoKfEdKvsqbx5gJLA" target="_blank" style="margin: 0 10px; color: #25D366;">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
-                  <a href="https://www.tiktok.com/@strivedevs" target="_blank" style="margin: 0 10px; color: #000;">
+                  <a href="https://www.tiktok.com/@strivedev" target="_blank" style="margin: 0 10px; color: #000;">
                     <i class="fa-brands fa-tiktok"></i>
                   </a>
                   <a href="https://youtube.com/@strivedev?si=kJAQp7tUzxG7aMj9" target="_blank" style="margin: 0 10px; color: #e4405f;">

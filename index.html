@@ -26,43 +26,21 @@
    <link rel="stylesheet" href="assets/css/color.css">
    <script src="assets/js/jquery-3.6.0.min.js"></script>
    <script src="assets/js/preloader.js"></script>
-   <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-   <script type="text/javascript">
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
     (function() {
-      emailjs.init('gmCML0Vm2XD0UPeUC'); // Replace with your EmailJS Public Key
-    })();
-
-    function sendEmail(event) {
-      event.preventDefault();
-
-      emailjs.sendForm('service_ouqi8oc', 'template_tzqp50j', event.target)
-        .then(() => {
-          // Send an auto-reply to the user
-          const formData = new FormData(event.target);
-          emailjs.send('service_ouqi8oc', 'template_i9b07hs' );
-
-        })
-        .catch(() => {
-          console.error('Error sending email');
-        });
-    }
-  </script>
-  <!-- <script>
-    (function() {
-      emailjs.init('EsCxj7Ym2JMsGs6V3'); 
+      emailjs.init('gmCML0Vm2XD0UPeUC'); 
     })();
 
     function sendEmail(event) {
       event.preventDefault();
       const formData = new FormData(event.target);
 
-      emailjs.sendForm()
+      emailjs.sendForm('service_in6yb9h', 'template_tzqp50j', event.target)
          
         
     }
-  </script> -->
+  </script>
  </head>
 <body>
 <!-- loader -->

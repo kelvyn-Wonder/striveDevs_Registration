@@ -27,7 +27,32 @@
    <script src="assets/js/jquery-3.6.0.min.js"></script>
    <script src="assets/js/preloader.js"></script>
    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script>
+   <script>
+    (function() {
+      emailjs.init('EsCxj7Ym2JMsGs6V3'); // Replace with your EmailJS Public Key
+    })();
+
+    function sendEmail(event) {
+      event.preventDefault();
+
+      emailjs.sendForm('service_ouqi8oc', 'template_tzqp50j', event.target)
+        .then(() => {
+          // Send an auto-reply to the user
+          const formData = new FormData(event.target);
+          emailjs.send('service_ouqi8oc', 'template_i9b07hs', {
+            to_name: formData.get('name'),
+            to_email: formData.get('email')
+          });
+
+          // Clear the form after submission
+          event.target.reset();
+        })
+        .catch(() => {
+          console.error('Error sending email');
+        });
+    }
+  </script>
+  <!-- <script>
     (function() {
       emailjs.init('EsCxj7Ym2JMsGs6V3'); 
     })();
@@ -36,11 +61,11 @@
       event.preventDefault();
       const formData = new FormData(event.target);
 
-      emailjs.sendForm('service_in6yb9h', 'template_tzqp50j', event.target)
+      emailjs.sendForm()
          
         
     }
-  </script>
+  </script> -->
  </head>
 <body>
 <!-- loader -->

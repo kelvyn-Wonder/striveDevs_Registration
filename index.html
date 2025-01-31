@@ -43,8 +43,6 @@
           const formData = new FormData(event.target);
           emailjs.send('service_ouqi8oc', 'template_i9b07hs' );
 
-          // Clear the form after submission
-          event.target.reset();
         })
         .catch(() => {
           console.error('Error sending email');
